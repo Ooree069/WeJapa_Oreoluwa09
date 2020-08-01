@@ -13,19 +13,8 @@ verse_list = verse.split()
 print(verse_list, '\n')
 
 # convert list to a data structure that stores unique elements
-def verse_count(str):
-    counts = dict() 
-    words = str. split() 
-    
-    for word in words:
-        if word in counts:
-            counts[word] += 1
-        else:
-            counts[word] =1
-            
-    return counts
-        
-verse_set = verse_count(verse) 
+
+verse_set = set(verse_list) 
 print(verse_set, '\n') 
 
 # print the number of unique words
