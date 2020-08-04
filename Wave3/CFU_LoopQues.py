@@ -32,4 +32,4 @@ def prime(check_prime):
            
 print(prime(check_prime))     
     
-# all non_prime numbers must be divisible by either one of 2,3,5 or 7
+# all non_prime numbers are divisible by either one of 2,3,5 or 7 in this context
