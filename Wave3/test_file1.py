@@ -7,7 +7,7 @@
 # amount.
 # '''
 state = "MN"  #Either CA, MN, or NY
-purchase_amount = int(input()) #amount of purchase
+purchase_amount = 500 #amount of purchase
 
 if state == "CA" :  #provide conditional for checking state is CA
     tax_amount = .075
