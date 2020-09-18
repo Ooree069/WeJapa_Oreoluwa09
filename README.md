@@ -1,2 +1,3 @@
 # Oreoluwa09
-Wave assignments
+Wave assignments and Capstone Project
+
